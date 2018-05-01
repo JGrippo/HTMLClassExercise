@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+<header>
+    <h1>Contact us</h1>
+    <h4>
+        Form.
+    </h4>
+</header>
+<form name="userLogin" method="get" action="CarTypes.html">
+    <fieldset>
+        <legend>Enter your First Name:</legend>
+        <!--<label for="firstName">First name:</label>-->
+        <input id="firstName" type="text" required="required" autofocus="autofocus" placeholder="your firstname here" title="First Name of User " />
+        <span style="color:red">*</span><br />
+    </fieldset>
+    <fieldset>
+        <legend>Enter your Last Name:</legend>
+        <!--<label for="firstName">First name:</label>-->
+        <input id="lastName" type="text" required="required" autofocus="autofocus" placeholder="your lastname here" title="First Name of User " />
+        <span style="color:red">*</span><br />
+    </fieldset>
+    <fieldset>
+        <legend>Enter your email:</legend>
+        <!--<label for="Email">email address:</label>-->
+        <input id="Email" type="email" required="required" placeholder="your email here"/><span style="color:red">*</span><br />
+    </fieldset>
+    <fieldset>
+        <legend>Enter your Phone:</legend>
+        <!--<label for="Email">email address:</label>-->
+        <input id="phoneNumber" name="orderReference" type="text" pattern="[0-9]{3}[-][0-9]{3}[-][0-9]{4}" title="000-000-0000" placeholder="000-000-0000" /><span style="color:red">*</span><br />
+    </fieldset>
+    <input type="submit" value="Submit" />
+</form>
+
+</body>
+</html>
